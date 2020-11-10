@@ -1,0 +1,51 @@
+			nav {
+			    margin: 100px 1px;
+			    background-color: #00FFFF;
+          width: 380px;
+          height: auto;
+			}
+
+
+			nav ul {
+			    padding:0;
+			    margin:0;
+			    list-style: none;
+			    position: relative;
+			    }
+
+			nav ul li {
+			    margin: 0px -7px 0 0;
+			    display:inline-block;
+			    background-color: #00FFFF;
+			    }
+
+			nav a {
+			    display:block;
+			    padding:0 10px;
+			    color:#FFF;
+			    font-size:20px;
+			    line-height: 60px;
+			    text-decoration:none;
+			}
+
+			/* изменяем цвет фона при наведении курсора */
+			nav a:hover {
+			    background-color: #00CED1;
+		}
+			nav ul ul {
+			    display: none;
+			    position: absolute;
+			    top: 100%;
+			}
+
+			/* отображаем выпадающий список при наведении */
+			nav ul li:hover > ul {
+			    display:inherit;
+			}
+
+			nav ul ul li {
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}

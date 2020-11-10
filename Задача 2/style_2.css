@@ -1,0 +1,35 @@
+li.li1{
+  font : 12pt/10pt Courier New, monospace;
+  text-decoration: underline;
+  color: green;
+}
+p.ol_li1{
+  color: green;
+}
+li.li2{
+  font : 12pt/10pt Courier New, monospace;
+  text-decoration: underline;
+  text-decoration-style:double;
+  color: #FF1493	;
+}
+p.ol_li2{
+    color: #FF1493	;
+}
+li.li3{
+  font : 12pt/10pt Courier New, monospace;
+    text-decoration: underline overline;
+  text-decoration-style:double;
+  color: #FFD700	;
+}
+p.ol_li3{
+  color: #FFD700	;
+}
+li.liB{
+  font : 12pt/10pt Courier New, monospace;
+  text-decoration:underline;
+   text-decoration-style: wavy;
+    color: #008080	;
+}
+p.B{
+  color: #008080	;
+}

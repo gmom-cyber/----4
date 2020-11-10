@@ -1,0 +1,46 @@
+span.left_one:after{
+  content: '\2018';
+}
+span.right_one:after{
+  content: '\2019'/*Закрывающая одинарная кавычка*/
+}
+span.down_left::after{
+  content: '\201A';
+}
+span.down_right::after{
+  content: '\201A';/*Нижняя одиночная кавычка*/
+}
+span.double_left::after{
+  content: '\201c';
+}
+span.double_right::after{
+  content: '\201d';/*Закрывающая двойная кавычка.*/
+}
+span.double_down::after{
+  content: '\201E';
+}
+span.double_down_right::after{
+  content: '\201E';/*Открывающая двойная кавычка*/
+}
+span.angle_quotes_left::after{
+  content: '\00ab';
+}
+span.angle_quotes_right::after{
+  content: '\00bb';/*Правая двойная угловая скобка*/
+}
+li.li1{
+  font : bold italic 22px Times New Roman, serif;
+}
+li.li2{
+  font : bold italic 22px Arial, sans-serif;
+
+}
+li.li3{
+  font : 12pt/10pt Courier New, monospace;
+}
+li.li4{
+  font : bold italic 110% Parkavenue, cursive;
+}
+li.li5{
+  font : normal small-caps 12px/14px Impact, fantasy;
+}
